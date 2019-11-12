@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_main6"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:background="@drawable/back_img" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ttt1"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            android:text="Use Technology"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="match_parent"
+            android:layout_height="228dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ttt1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/etc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/round2"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/etc_img1"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/java_img" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/etc_name1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center"
+                            android:text="JAVA"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/etc_msg1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="JAVA의 Thread , extend , parent  을 기반으로 제작됨"
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/etc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/round2"
+                    android:orientation="horizontal"
+                    android:tag="02"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/etc_img2"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/android_img" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/etc_name2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center"
+                            android:text="Android"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/etc_msg2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Android 에서 제공되는 네트워크 파싱과 에니메이션,기본 Resource, GPS 등을 이용하여 제작됨"
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/etc3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/round2"
+                    android:orientation="horizontal"
+                    android:tag="03"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/etc_img3"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/googleg_standard_color_18" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/etc_name3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center"
+                            android:text="Google"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/etc_msg3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Google 에서 Google Map API key를 발급받아 적용시키고 활용하며 GPS상의 위도와경도 값을 가지고 실시간으로 주소를 알려주는 지오코더 서비스 제작"
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

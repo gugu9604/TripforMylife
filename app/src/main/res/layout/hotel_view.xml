@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/round2"
+        android:gravity="center"
+        android:text="성현이의 추천 호텔!"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_main"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/back_img"
+        android:onClick="go_main" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="425dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/re1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_list"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/hotel_img7"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/hotel7"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/hotel_name7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+                        android:text="호텔 융프라우 뮈렌"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/hotel_info7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="라우테브루넨의 이 호텔에서는 고전적인 분위기의 객실 및 시설과 더불어 수영장, 사우나 등까지 이용하실 수 있습니다. 또한 주변 관광 명소를 둘러보시기에 좋은 위치를 갖추고 있습니다. "
+                        android:textSize="10sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/re2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_list"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/hotel_img8"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/hotel8" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/hotel_name8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+                        android:text="스포츠샬레 뮈렌"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/hotel_info8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="융프라우 끝자락에 자리하고 있는 스포츠샬레 뮈렌에는 스키인/스키 아웃 시설, 실내 수영장 등을 갖춰져 있으며 편안한 분위기의 휴식 공간입니다. 조금만 걸어가시면 라우테브루넨의 인기 관광 명소까지 금방 가실 수 있습니다. "
+                        android:textSize="10sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/re3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_list"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/hotel_img9"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/hotel9" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/hotel_name9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+                        android:text="테라스 판테온 를레"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/hotel_info9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=" 바르베리니역에서 가까이에 위치한 편안한 분위기의 이 BB는 로마 및 주변 지역을 관광하고 싶은 분들에게 최고의 선택이 될 것입니다. 도시 중심에 자리하여 편리한 위치를 자랑합니다. "
+                        android:textSize="10sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/re4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_list"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/hotel_img10"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/hotel10" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/hotel_name10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+                        android:text="호텔 트리에스테 베로나"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/hotel_info10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="이 호텔은 베로나 중심에 위치하여 주요 관광지까지 쉽게 가실 수 있습니다. 또한 익스프레스 체크인/체크아웃, 자전거 무료 대여 서비스, 24시간 리셉션 등도 이용하실 수 있습니다. "
+                        android:textSize="10sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/re5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_list"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/hotel_img1"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginRight="10dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/london_hotel1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/hotel_name1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center"
+                            android:text="Park Plaza"
+                            android:textColor="@color/colorAccent"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/hotel_info1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="이 호텔은 웨스트민스터 지하철역에서 도보로 아주 가까운 거리에 있습니다. 500m 거리에 런던 아이와 런던 워털루 역이 있으며 빅벤은 바로 맞은 편에 있어 편리하게 런던 주요 관광명소를 둘러보실 수 있습니다. "
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/re6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_list"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/hotel_img2"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginRight="10dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/london_hotel2" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/hotel_name2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center"
+                            android:text="런던 메리어트"
+                            android:textColor="@color/colorAccent"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/hotel_info2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="이 호텔은 서클, 디스트릭트, 주빌리 노선의 웨스트민스터 역에서 도보 5분 거리에 있습니다. 거리에 있습니다. 히스로 공항에서 차로 약 55분이 소요되며, 주변 명소로는 약 350m 거리에 런던 아이가, 약 500m 거리에 빅벤이 자리하고 있습니다."
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/re7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_list"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/hotel_img3"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginRight="10dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/london_hotel3" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/hotel_name3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center"
+                            android:text="마린 워터루"
+                            android:textColor="@color/colorAccent"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/hotel_info3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="런던 중심부의 이 호텔에서는 4성급 객실을 제공하고 있습니다. 투숙객들에게 무료로 무선 인터넷도 제공하고 있습니다. "
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/re8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_list"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/hotel_img4"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginRight="10dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/hotel4" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/hotel_name4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center"
+                            android:text="하얏트 리젠시 파리 에투알"
+                            android:textColor="@color/colorAccent"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/hotel_info4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="파리 의회 센터와 바로 연결된 이 호텔은 라 데팡스 비즈니스 지구에서 지하철로 5분 거리에 있습니다. 포르트 메이지요 지하철역에서 8분 거리에 있으며 개선문과 샹젤리제 거리와 같이 프랑스를 대표하는 관광지에서 겨우 1km 떨어져 있습니다"
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/re9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_list"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/hotel_img5"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginRight="10dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/hotel5" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/hotel_name5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center"
+                            android:text="르 메르디앙 에투알"
+                            android:textColor="@color/colorAccent"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/hotel_info5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="포르트드샹페레 역에서 가까운 이 4성급 호텔에서는 파리 인근 지역을 편리하게 돌아다니실 수 있습니다. 20분만 걸어가시면 샹젤리제와 개선문까지 가실 수 있으며 3km 거리에 에펠탑이 있습니다. "
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/re10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_list"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/hotel_img6"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/hotel6" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/hotel_name6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+                        android:text="이비스 스트라스부르 상트르 히스토리크"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/hotel_info6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="스트라스부르에 있는 이 호텔에서는 도보로 10분이면 바라지 보방, 스트라스부르 뮤지엄 오브 모던 앤드 컨템퍼러리 아트 등과 같은 관광명소까지 가실 수 있습니다. 에어컨이 완비된 3성급 객실을 제공하고 있습니다"
+                        android:textSize="10sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

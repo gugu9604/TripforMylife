@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">나의 발자취!!</string>
+    <string name="strButton1">가위</string>
+    <string name="strButton2">바위</string>
+    <string name="strButton3">보</string>
+    <string name="strButton4">시작</string>
+    <string name="strButton5">게임 끝</string>
+    <string name="strPhone">폰</string>
+    <string name="strResult0">비겼습니다!</string>
+    <string name="strResult1">당신이 이겼습니다!</string>
+    <string name="strResult2">당신이 졌습니다!</string>
+    <string name="strTitle">정성현의 가위 바위 보 게임!</string>
+    <string name="strTot">게임 수 : </string>
+    <string name="strYou">당신 : </string>
+    <string name="maptitle1">에펠탑</string>
+    <string name="mapcontent1">에펠탑과 사진찍기 좋아요!</string>
+</resources>
